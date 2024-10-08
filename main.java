@@ -1,19 +1,11 @@
 import java.util.Scanner;
 
-public class Main {
+public class main {
     public static String[] todos = new String[3];
     public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        System.out.println("BEFORE EDIT");
-        addTodoList("Mewarnai");
-        addTodoList("Membaca");
-        addTodoList("Bersepeda");
-        addTodoList("Berkhotbah");
-        showTodoList();
-        editTodoList(1, "Bekerja");
-        System.out.println("AFTER EDIT");
-        showTodoList();
+        showMainMenu();
     }
 
     public static void showTodoList() {
